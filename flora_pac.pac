@@ -1868,6 +1868,8 @@ function FindProxyForURL(url, host) {
         'alibaba.com' : 1,
         'alibaba.net' : 1,
         'alibaba-inc.com' : 1,
+        'ctrip.com' : 1,
+        'c-ctrip.com' : 1,
         'alicdn.com' : 1,
         'alidc.net' : 1,
         'aliexpress.com' : 1,
@@ -4733,7 +4735,10 @@ function FindProxyForURL(url, host) {
         16402 : 1
     };
 
-    var proxy = 'PROXY 127.0.0.1:12324';
+//    var proxy = 'PROXY 127.0.0.1:12324';
+    var proxy = 'SOCKS5 127.0.0.1:12324';
+//    var proxy = 'PROXY 10.16.46.169:10801';
+
 
     function convertAddress(ipchars) {
         var bytes = ipchars.split('.');
