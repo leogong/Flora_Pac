@@ -1828,6 +1828,8 @@ function FindProxyForURL(url, host) {
         '115.com' : 1,
         '123u.com' : 1,
         '126.com' : 1,
+        'javacode.cn' : 1,
+        'useso.com' : 1,
         '126.net' : 1,
         '163.com' : 1,
         '17173.com' : 1,
@@ -4735,8 +4737,8 @@ function FindProxyForURL(url, host) {
         16402 : 1
     };
 
-//    var proxy = 'PROXY 127.0.0.1:12324';
-    var proxy = 'SOCKS5 127.0.0.1:12324';
+    var proxy = 'PROXY 127.0.0.1:12324';
+//    var proxy = 'SOCKS5 127.0.0.1:12324';
 //    var proxy = 'PROXY 10.16.46.169:10801';
 
 
