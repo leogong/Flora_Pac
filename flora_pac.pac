@@ -1825,6 +1825,7 @@ function FindProxyForURL(url, host) {
 
     var safeDomains = {
         '10010.com' : 1,
+	'mytest.com': 1,
         '115.com' : 1,
         '123u.com' : 1,
         '126.com' : 1,
