@@ -1871,6 +1871,7 @@ function FindProxyForURL(url, host) {
         'alibaba.com' : 1,
         'alibaba.net' : 1,
         'alibaba-inc.com' : 1,
+	'taobao.org' : 1,
         'ctrip.com' : 1,
         'c-ctrip.com' : 1,
         'alicdn.com' : 1,
